@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reelforge"
+version = "0.1.0"
+description = "Toolkit for assembling vertical (9:16) short videos: subtitle burning, part stitching, narration + score mixing."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Inam" }]
+keywords = ["video", "ffmpeg", "subtitles", "vertical-video", "shorts", "reels"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Multimedia :: Video",
+]
+
+[project.scripts]
+reelforge = "reelforge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["reelforge*"]
