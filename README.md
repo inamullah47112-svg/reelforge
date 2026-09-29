@@ -1,5 +1,7 @@
 # ReelForge
 
+**Repository:** https://github.com/inamullah47112-svg/reelforge
+
 A Python toolkit for producing vertical (9:16) short videos — the kind you post as Reels, Shorts, and TikToks. It handles the three jobs every faceless-story / documentary pipeline repeats:
 
 1. **Subtitles that actually render correctly** — burned in, bottom-anchored, readable on phones, with proper Urdu/Arabic font handling.
